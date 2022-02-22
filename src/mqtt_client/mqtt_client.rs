@@ -363,4 +363,9 @@ where
     pub fn settings(&self) -> &Settings {
         &self.settings
     }
+
+    /// Get the current settings from miniconf as mutable.
+    pub fn settings_mut(&mut self) -> &mut Settings {
+        &mut self.settings
+    }
 }
